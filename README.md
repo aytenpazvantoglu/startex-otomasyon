@@ -19,6 +19,12 @@ Bu proje; PHP ve MySQL kullanılarak geliştirilmiş, katılımcı kayıtların�
 ### 3. Kayıt Düzenleme Ekranı
 <img width="635" height="557" alt="düzenleme-ekranı" src="https://github.com/user-attachments/assets/10d6bcf3-530d-45fd-bddc-ec05eabaaf73" />
 
+## 💻 Kullanılan Teknolojiler
+* **Backend:** PHP
+* **Veritabanı:** MySQL
+* **Frontend:** HTML5, CSS3, Bootstrap 5
+* **Geliştirme Ortamı:** XAMPP (Apache & MariaDB)
+
 ## 🛠️ Kurulum Adımları
 1. Dosyaları yerel sunucunuzun kök dizinine taşıyın (Örn: `xampp/htdocs/startex`).
 2. phpMyAdmin üzerinden `startex_db` adında bir veritabanı oluşturun.
