@@ -2,10 +2,11 @@
 
 Bu proje; PHP ve MySQL kullanılarak geliştirilmiş, katılımcı kayıtlarının yönetilmesini sağlayan dinamik bir web otomasyonudur. Temel CRUD (Create, Read, Update, Delete) operasyonlarını ve anlık istatistik takibini içerir.
 
-## Özellikler
-* **CRUD Mimarisi:** Katılımcı ekleme, listeleme, dinamik arama, güncelleme ve silme.
-* **İstatistik Paneli:** Toplam kayıtlı katılımcı sayısını ve etkinlik durumunu dinamik gösteren sayaç kartları.
-* **Responsive Tasarım:** Bootstrap kullanılarak hazırlanmış modern ve kullanıcı dostu arayüz.
+## 🚀 Özellikler
+* **CRUD Operasyonları:** Katılımcı ekleme, listeleme, dinamik arama, güncelleme ve silme.
+* **Dinamik İstatistik Paneli:** Toplam kayıtlı katılımcı sayısını ve etkinlik durumunu anlık gösteren sayaç kartları.
+* **Arayüz Tasarımı:** Bootstrap ile güçlendirilmiş, kullanıcı dostu ve responsive tasarım.
+* **Veritabanı Entegrasyonu:** MySQL ilişkisel veritabanı yapısı ve hazır kurulum şeması (`startex_db.sql`).
 
 ## Ekran Görüntüleri
 
@@ -18,7 +19,9 @@ Bu proje; PHP ve MySQL kullanılarak geliştirilmiş, katılımcı kayıtların�
 ### 3. Kayıt Düzenleme Ekranı
 <img width="635" height="557" alt="düzenleme-ekranı" src="https://github.com/user-attachments/assets/10d6bcf3-530d-45fd-bddc-ec05eabaaf73" />
 
-## Kurulum
-1. Dosyaları `htdocs/startex` dizinine taşıyın.
-2. `startex_db.sql` dosyasını phpMyAdmin üzerinden içe aktarın.
-3. Tarayıcınızdan `localhost/startex/index.php` adresine gidin.
+## 🛠️ Kurulum Adımları
+1. Dosyaları yerel sunucunuzun kök dizinine taşıyın (Örn: `xampp/htdocs/startex`).
+2. phpMyAdmin üzerinden `startex_db` adında bir veritabanı oluşturun.
+3. Proje klasöründeki `startex_db.sql` dosyasını phpMyAdmin ile içe aktarın (Import).
+4. XAMPP üzerinden Apache ve MySQL servislerini başlatın.
+5. Tarayıcınızdan `http://localhost/startex/index.php` adresine gidin.
