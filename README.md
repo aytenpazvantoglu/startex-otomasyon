@@ -24,7 +24,7 @@ Bu proje; PHP ve MySQL kullanılarak geliştirilmiş, katılımcı kayıtların�
 * **Veritabanı:** MySQL
 * **Frontend:** HTML5, CSS3, Bootstrap 5
 * **Geliştirme Ortamı:** XAMPP (Apache & MariaDB)
-* **Kod Editörü: Visual Studio Code
+* **Kod Editörü:** Visual Studio Code
 
 ## 🛠️ Kurulum Adımları
 1. Dosyaları yerel sunucunuzun kök dizinine taşıyın (Örn: `xampp/htdocs/startex`).
