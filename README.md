@@ -7,6 +7,7 @@ Bu proje; PHP ve MySQL kullanılarak geliştirilmiş, katılımcı kayıtların�
 * **Dinamik İstatistik Paneli:** Toplam kayıtlı katılımcı sayısını ve etkinlik durumunu anlık gösteren sayaç kartları.
 * **Arayüz Tasarımı:** Bootstrap ile güçlendirilmiş, kullanıcı dostu ve responsive tasarım.
 * **Veritabanı Entegrasyonu:** MySQL ilişkisel veritabanı yapısı ve hazır kurulum şeması (`startex_db.sql`).
+* **Güvenlik Altyapısı:** Veritabanı sorgularında dışarıdan gelebilecek SQL Injection (SQL Enjeksiyonu) saldırılarına karşı Prepared Statements (Hazırlanmış Sorgular) kullanılarak tam veri güvenliği sağlandı.
 
 ## Ekran Görüntüleri
 
